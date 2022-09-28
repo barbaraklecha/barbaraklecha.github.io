@@ -1,0 +1,138 @@
+h1, h2, .skills-list {font-family: 'Courgette', cursive;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  line-height: 150%;
+  font-weight: normal;
+}
+body
+{font-family: 'Source Sans Pro', sans-serif;
+font-size: 15px;
+}
+body ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+nav {
+    background-color: #B4E197;
+    position: fixed;z-index: 1;
+    width: 1409px;
+    font-size: 14px;
+  }
+  nav ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  }
+  nav ul {
+    margin: 3px auto;
+    text-align: center;
+    padding: 30px;
+  }
+  nav li a {
+    text-decoration: none;
+    color: black;
+  }
+  nav li a:hover {
+    text-decoration: underline;
+  }
+header {
+  top: 70px;
+  position: relative;
+  margin-bottom: 180px;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-position-y: -80px;
+    background-repeat: no-repeat;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-top: 40px;
+  border-radius: 20px;
+  transition: background 0,5s ease-in-out;
+  transition: color 0,5s ease-in-out;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.intro-image {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 20%);
+}
+
+.skills-list {
+  text-align: center;
+  font-size: 40px;
+  line-height: 150%;
+  margin-bottom: 120px;
+}
+.project {
+  margin: 70px 0;
+  padding: 50px;
+  background-color: #B4E197;
+}
+.project2 {
+  margin: 70px 0;
+  padding: 50px;
+}
+
+.project .button {
+  margin-top: 10px;
+}
+.project2 .button {
+  margin-top: 10px;
+}
+
+footer h2 {
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+footer {
+  margin: 100px;
+  text-align: center;
+}
+.right-alignment {
+  text-align: right;
+}
+.project-photo {
+  margin-top: 50px;
+}
+.empty {
+  width: 90px;
+  border-top: 1px solid black;
+  top: -5px;
+  position:relative;
+}
+.tools {
+  font-weight: bold;
+}
+.emptyline {
+  margin-top: 20px;
+  width: 90px;
+  border-top: 1px solid black;
+  top: -5px;
+  position:relative;
+}
+figcaption {
+  font-size: 10px;
+}
